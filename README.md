@@ -53,14 +53,16 @@ A aplicação oferece uma API para cadastro de clientes, além de funcionalidade
    git clone https://github.com/encortonado/sub_tech_challenge_auth.git
    ```
 
-2. **Suba os containers Docker** (se configurado com Docker Compose):
+2. **Rode os Comandos abaixo para executar** o banco de dados localmente:
    ```bash
-   docker-compose up
+   ./run-sh db
    ```
+   
+    ps. Caso for rodar as duas aplicações simultaneamente, rode apenas uma instância de banco de dados
 
 3. **Execute a aplicação** localmente:
    ```bash
-   mvn spring-boot:run
+   ./run-sh app
    ```
 
 ## 🧪 Executando os Testes
